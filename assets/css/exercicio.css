@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 30px;
+    font-size: 10px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header a{
+    position: absolute;
+    left: 10%;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    margin: 20px;
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+}
+.container{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+}
+.container input, select{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input, button{
+    width: 60%;
+    border-style: solid;
+    border-radius: 10px;
+}
+.container p{
+    width: 80%;
+    text-align: center;
+    margin: 40px;
+}
+footer{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    height: 30px;
+}
+footer a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quatro{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quatro p{
+    margin: 10px;
+}
+#cinco label{
+    margin-top: 25px;
+}
+.containerSeis{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+}
+.containerSeis input{
+    text-align: center;
+}
+.containerSeis p{
+    width: 80%;
+    text-align: center;
+    margin: 40px;
+}
+.containerMenor{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+.containerMenor input, select{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.containerMenor input{
+    text-align: center;
+}
+.containerMenor p{
+    width: 80%;
+    text-align: center;
+    margin: 40px;
+}
+.containerMenorDois{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 170px);
+}
+.containerMenorDois input, select{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.containerMenorDois input{
+    text-align: center;
+}
+.containerMenorDois p{
+    width: 80%;
+    text-align: center;
+    margin: 40px;
+}
+@media (min-width: 650px){
+    input, button{
+        width: 390px;
+    }
+}
